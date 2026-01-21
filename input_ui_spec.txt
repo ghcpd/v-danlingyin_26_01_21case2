@@ -1,0 +1,24 @@
+App Name: Online Course Catalog
+
+Pages:
+- Course List
+- Course Detail
+- My Courses
+
+Features:
+- Course List:
+  - Display list of courses (title, short description)
+- Course Detail:
+  - Full description
+  - Enroll button
+- My Courses:
+  - List of enrolled courses
+
+Behavior:
+- Enrolling adds course to My Courses
+- Enroll button disabled if already enrolled
+- Navigation between pages
+
+Constraints:
+- No persistence
+- No authentication
