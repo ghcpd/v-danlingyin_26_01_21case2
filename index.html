@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Course Catalog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="brand">Online Course Catalog</div>
+      <nav class="nav" aria-label="Primary">
+        <a href="#/courses" class="nav-link" data-link="courses">Courses</a>
+        <a href="#/my-courses" class="nav-link" data-link="my-courses">My Courses</a>
+      </nav>
+    </header>
+    <main id="app" class="app-main" role="main" aria-live="polite"></main>
+    <footer class="app-footer">Mock data only · No persistence · No auth</footer>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

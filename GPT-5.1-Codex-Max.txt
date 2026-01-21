@@ -1,0 +1,62 @@
+GPT-5.1-Codex-Max  ：：
+User: Prompt
+You are a frontend developer.
+
+Your task is to build a complete frontend application from scratch
+based strictly on input_ui_spec.txt.
+
+This UI Case focuses on:
+- App creation from zero
+- Page routing and navigation
+- State sharing across pages
+
+Requirements:
+- Any frontend stack is allowed
+- App must be runnable
+- Use mock data only
+
+Rules:
+- Do NOT skip any page described
+- Do NOT add backend APIs
+- Do NOT return partial implementations
+
+GitHub Copilot: 
+
+User: Prompt
+You are a frontend developer.
+
+Your task is to build a complete frontend application from scratch
+based strictly on input_ui_spec.txt.
+
+This UI Case focuses on:
+- App creation from zero
+- Page routing and navigation
+- State sharing across pages
+
+Requirements:
+- Any frontend stack is allowed
+- App must be runnable
+- Use mock data only
+
+Rules:
+- Do NOT skip any page described
+- Do NOT add backend APIs
+- Do NOT return partial implementations
+
+GitHub Copilot: Optimizing tool selection...
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/GPT-5.1-Codex-Max/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/GPT-5.1-Codex-Max/style.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/GPT-5.1-Codex-Max/main.js)
+
+Built a runnable single-page app covering Course List, Course Detail, and My Courses with shared enrollment state.
+
+- Added page shell, nav, and app mount point in index.html; links switch routes via hash navigation.
+- Styled a bold, non-default look (gradient background, cards, responsive grid, active nav states) in style.css.
+- Implemented mock courses, hash-based routing, enrollment state (disables buttons, populates My Courses), and detail view handling in main.js.
+
+Run locally: serve the folder with any static server (e.g., `npx serve .` or `python -m http.server 8000`) and open http://localhost:8000.
+
+Made changes.
