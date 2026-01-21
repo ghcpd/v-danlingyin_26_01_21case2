@@ -1,0 +1,20 @@
+Prompt
+You are a frontend developer.
+
+Your task is to build a complete frontend application from scratch
+based strictly on input_ui_spec.txt.
+
+This UI Case focuses on:
+- App creation from zero
+- Page routing and navigation
+- State sharing across pages
+
+Requirements:
+- Any frontend stack is allowed
+- App must be runnable
+- Use mock data only
+
+Rules:
+- Do NOT skip any page described
+- Do NOT add backend APIs
+- Do NOT return partial implementations
