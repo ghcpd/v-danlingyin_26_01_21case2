@@ -1,0 +1,92 @@
+Claude-Sonnet-4.5  :、
+User: Prompt
+You are a frontend developer.
+
+Your task is to build a complete frontend application from scratch
+based strictly on input_ui_spec.txt.
+
+This UI Case focuses on:
+- App creation from zero
+- Page routing and navigation
+- State sharing across pages
+
+Requirements:
+- Any frontend stack is allowed
+- App must be runnable
+- Use mock data only
+
+Rules:
+- Do NOT skip any page described
+- Do NOT add backend APIs
+- Do NOT return partial implementations
+
+GitHub Copilot: I'll build a complete Online Course Catalog frontend application using React and Vite. Let me create all the necessary files. 
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/Claude-Sonnet-4.5/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/Claude-Sonnet-4.5/vite.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/Claude-Sonnet-4.5/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/Claude-Sonnet-4.5/src/data/mockCourses.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/Claude-Sonnet-4.5/src/context/CoursesContext.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/Claude-Sonnet-4.5/src/pages/CourseList.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/Claude-Sonnet-4.5/src/pages/CourseDetail.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/Claude-Sonnet-4.5/src/pages/MyCourses.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/Claude-Sonnet-4.5/src/App.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/Claude-Sonnet-4.5/src/main.jsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/Claude-Sonnet-4.5/src/App.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/26.1/1.21/case2/Claude-Sonnet-4.5/README.md)
+
+Perfect! I've created a complete, runnable Online Course Catalog application with React and Vite. Here's what was implemented:
+
+## Application Structure
+
+**All 3 Pages:**
+- ✅ **Course List** - Displays all courses with titles and short descriptions
+- ✅ **Course Detail** - Shows full course description with enroll button
+- ✅ **My Courses** - Lists all enrolled courses
+
+**Key Features:**
+- ✅ Page routing with React Router
+- ✅ State management using Context API (shared enrollment state)
+- ✅ Enroll button disables after enrollment
+- ✅ Navigation between all pages
+- ✅ Mock data (6 sample courses)
+- ✅ Responsive design
+- ✅ No backend, no persistence, no authentication
+
+## To Run the Application: 
+
+Ran terminal command: npm install
+
+Ran terminal command: npm run dev
+
+Excellent! The application is now running at **http://localhost:5173/**
+
+## What You Can Do Now:
+
+1. **Browse Courses** - View 6 mock courses on the Course List page
+2. **View Details** - Click any course to see its full description
+3. **Enroll in Courses** - Click "Enroll Now" to add courses to your list
+4. **Check My Courses** - Navigate to "My Courses" to see enrolled courses
+5. **See State Management** - Notice the enroll button becomes disabled after enrolling
+
+The application is fully functional with:
+- ✅ Complete routing between all 3 pages
+- ✅ Shared state across the application  
+- ✅ Mock data (no backend)
+- ✅ Responsive design that works on mobile and desktop
+- ✅ Clean, modern UI
+
+Open http://localhost:5173/ in your browser to start using the app!
+
+Made changes.
